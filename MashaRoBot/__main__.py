@@ -74,54 +74,43 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello I'm 𝕷𝖔𝖛𝖊𝖑𝖞 𝕽𝖔𝖇𝖔𝖙 ,
-༒︎ I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/file/787339b6e43109c75a63c.mp4)
-
-➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
-
-➪ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴍᴀsᴛᴇʀ](t.me/TUSHAR204) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [ᴀᴘᴘᴇᴀʟ](https://t.me/LOVELYAPPEAL) ʜᴇʀᴇ.
-
-➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
-
-➪ Pᴏᴡᴇʀᴇᴅ ʙʏ [𝕷𝖔𝖇𝖊 𝕱𝖆𝖎𝖑𝖚𝖗𝖊](t.me/shayri_of_loves)
+`Hellow` [❣️](https://telegra.ph/file/e1dbad16c75def9203a37.jpg) `My Name Is` *Meiko ❣️*
+`I'M Powerful Group Management Bot.
+You Can Find My List Of Available Commands With! Hit` *❣️Commands*   
 """
-
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐝𝐝 𝐋𝐨𝐯𝐞𝐥𝐲 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
+            text="➕️ ADD MEIKO ❣️ TO YOUR GROUP ➕️",url="t.me/PIKACHU_OP_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️𝐀𝐛𝐨𝐮𝐭", callback_data="masha_"),
-        InlineKeyboardButton(text="🆘𝐇𝐞𝐥𝐩", callback_data="help_back"),
+        InlineKeyboardButton(text="ABOUT 📜", callback_data="asuna_"),
+        InlineKeyboardButton(text="COMMANDS 💞", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🇮🇳 OWNER", url="https://telegram.dog/l_M_DEVIL"),
+    
     ],
     [
         InlineKeyboardButton(
-            text="✨𝐋𝐨𝐯𝐞𝐥𝐲 𝐋𝐨𝐠𝐬✨", url="t.me/LOV3LYLOGS"),
-        InlineKeyboardButton(
-            text="👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭👥", url="https://t.me/LOVELYAPPEAL"),
-    ],
-    [  
-        InlineKeyboardButton(text="😈𝐋𝐨𝐯𝐞𝐥𝐲 𝐃𝐞𝐯𝐬😈", url="https://t.me/LOVELYDEVS"
-    ),
-    ], 
-    [
-        InlineKeyboardButton(text="❤️𝐋𝐨𝐯𝐞 𝐬𝐭𝐚𝐭𝐮𝐬❤️", url="https://t.me/shayri_of_loves"
-    ), 
-    ],
-    [   
-        InlineKeyboardButton(text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
-    ),
+            text="UPDATES 💾", url="https://t.me/MissMeikoNews"),
+          
+
+
+InlineKeyboardButton(
+            text="👥 SUPPORT", url="https://t.me/MissMeikoSupport"
+        ),
     ],
 ]
 
 
 
 HELP_STRINGS = """
-༆*LOVELY comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
-𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
+💞*Meiko comes with many special features in it*💞
+❣️*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Meiko*❣️
+❣️ *All commands can either be used with* `/` *or* `!`.
+💞 *If you facing any issue or find any bugs in any command then you can report it in @MissMeikoSupport* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
 """
 
 
@@ -370,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *LOVELY*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *MEIKO❣️*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -378,8 +367,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/LOVELYSUPPORTS).
-                 If you have any question about Lovely, let us know at @LOVELYSUPPORTS.""",
+                 Here is the [💾Repository](https://github.com/Starkgang/Meikobot).
+                 If you have any question about Meiko, let us know at @MissMeikoSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -405,14 +394,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *lovely*
-                 \nHere is the [Source Code](https://t.me/LOVELYSUPPORTS) .""",
+            text=""" Hi..🤗 I'm *Meiko*
+                 \nHere is the [Source Code](https://github.com/Starkgang/Meikobot') .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="source_back")
+                    InlineKeyboardButton(text="GO BACK", callback_data="source_back")
                  ]
                 ]
             ),
@@ -441,7 +430,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="❣️ 𝐇𝐄𝐋𝐏 𝐀𝐍𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 ❣️",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -457,7 +446,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="❣️ 𝐇𝐄𝐋𝐏 𝐀𝐍𝐃 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 ❣️",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -551,7 +540,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="BACK ❣️",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -627,7 +616,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="❣️ SETTINGS❣️",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -701,7 +690,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lovely is back with explosive features.✨")
+            dispatcher.bot.sendMessage(f"@MissMeikoSupport", "I AM BACK AGAIN ❣️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
