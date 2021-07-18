@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [❣️](https://telegra.ph/file/e1dbad16c75def9203a37.jpg) `My Name Is` *Meiko ❣️*
+`Hellow` [❣️](https://telegra.ph/file/eeb1ffd32fa3e8c56d471.jpg) `My Name Is` *Meiko ❣️*
 `I'M Powerful Group Management Bot.
 You Can Find My List Of Available Commands With! Hit` *❣️Commands*   
 """
@@ -110,7 +110,7 @@ HELP_STRINGS = """
 💞*Meiko comes with many special features in it*💞
 ❣️*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Meiko*❣️
 ❣️ *All commands can either be used with* `/` *or* `!`.
-💞 *If you facing any issue or find any bugs in any command then you can report it in @MissMeikoSupport* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
+💞 *If you facing any issue or find any bugs in any command then you can report it in @MissMeikoSupport* [.](https://telegra.ph/file/2710b4242844423fe0b0f.jpg)
 """
 
 
