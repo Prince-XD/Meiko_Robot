@@ -81,7 +81,7 @@ You Can Find My List Of Available Commands With! Hit` *❣️Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MEIKO ❣️ TO YOUR GROUP ➕️",url="t.me/PIKACHU_OP_ROBOT?startgroup=true"),
+            text="➕️ ADD MEIKO ❣️ TO YOUR GROUP ➕️",url="t.me/Meiko_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT 📜", callback_data="asuna_"),
