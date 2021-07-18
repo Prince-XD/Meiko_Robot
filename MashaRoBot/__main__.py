@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [❣️](https://telegra.ph/file/eeb1ffd32fa3e8c56d471.jpg) `My Name Is` *Meiko ❣️*
+`Hellow` [❣️](https://telegra.ph/file/02838fc1b968a1feb405c.jpg) `My Name Is` *Meiko ❣️*
 `I'M Powerful Group Management Bot.
 You Can Find My List Of Available Commands With! Hit` *❣️Commands*   
 """
@@ -367,14 +367,14 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/Starkgang/Meikobot).
+                 Here is the [SOURCE CODE ❣️](https://github.com/Starkgang/Meikobot).
                  If you have any question about Meiko, let us know at @MissMeikoSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="𝙂𝙊 𝘽𝘼𝘾𝙆", callback_data="masha_back")
                  ]
                 ]
             ),
