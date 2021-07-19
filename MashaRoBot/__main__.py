@@ -84,7 +84,7 @@ buttons = [
             text="➕️ ADD MEIKO ❣️ TO YOUR GROUP ➕️",url="https://t.me/Meiko_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT 📜", callback_data="asuna_"),
+        InlineKeyboardButton(text="ABOUT 📜", callback_data="masha_"),
         InlineKeyboardButton(text="COMMANDS 💞", callback_data="help_back"),
      
     ],
