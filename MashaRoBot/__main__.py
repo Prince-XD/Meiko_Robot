@@ -361,13 +361,13 @@ def Masha_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text=""" ℹ️ I'm *MEIKO❣️*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
+                 ❍ I can greet users with customizable welcome messages and even set a groups rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
+                 ❍ I check for admins permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [SOURCE CODE ❣️](https://github.com/Starkgang/Meikobot).
+                 Here is the [SOURCE CODE❣️](https://github.com/Starkgang/Meikobot).
                  If you have any question about Meiko, let us know at @MissMeikoSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
